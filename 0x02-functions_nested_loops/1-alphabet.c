@@ -2,8 +2,7 @@
 
 /**
  * print_alpthaber - print all alphabet in lowercase
- * Description: printing alphaber in lowercase
- * @parameter: describe the parameter
+ * description: printing alphaber in lowercase
 */
 void print_alphabet(void)
 {
