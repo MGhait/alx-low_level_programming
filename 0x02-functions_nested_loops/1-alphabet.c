@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_alpthaber - print all alphabet in lowercase
+ * Description: nested loops prints alphabet in lowercase
  * Return: void
 */
 void print_alphabet(void)
