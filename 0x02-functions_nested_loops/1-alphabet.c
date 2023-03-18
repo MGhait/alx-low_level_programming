@@ -2,7 +2,7 @@
 
 /**
  * print_alpthaber - rint all alphabet in lowercase
- * Decsrilption: printing alphaber in lowercase
+ * Description: printing alphaber in lowercase
 */
 
 void print_alphabet(void)
