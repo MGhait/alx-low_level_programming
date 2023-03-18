@@ -2,7 +2,6 @@
 
 /**
  * print_alpthaber - print all alphabet in lowercase
- * description: printing alphaber in lowercase
 */
 void print_alphabet(void)
 {
