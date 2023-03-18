@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * print_alpthaber - rint all alphabet in lowercase
+ * print_alpthaber - print all alphabet in lowercase
  * Description: printing alphaber in lowercase
 */
-
 void print_alphabet(void)
 {
 	char letter;
