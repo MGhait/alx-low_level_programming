@@ -1,8 +1,7 @@
 #include "main.h"
 /**
  * print_alpthaber - print all alphabet in lowercase
- *
- * description: the loop prints the alphabet in lowercase using _putchar function
+ * Return: void
 */
 void print_alphabet(void)
 {
