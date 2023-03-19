@@ -6,7 +6,7 @@
  *
  * Return: noting
  */
-void puts2(cahr *str)
+void puts2(char *str)
 {
 	int i;
 
