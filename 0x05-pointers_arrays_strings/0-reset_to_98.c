@@ -8,7 +8,7 @@
  * Return: Noting
  */
 
-void reset_to_98(itn *n)
+void reset_to_98(int *n)
 {
 	*n = 98;
 }
