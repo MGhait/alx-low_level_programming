@@ -4,11 +4,11 @@
 int _sqrt(int n, int i);
 
 /**
- * _sqr_requsion - retruns the natural square root of a number
+ * _sqr_recursion - retruns the natural square root of a number
  * @n: input number
  * Return: on success result on failor -1
  */
-int _sqr_requsion(int n)
+int _sqr_recursion(int n)
 {
 	return (_sqrt(n, 1));
 }
