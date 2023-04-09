@@ -1,6 +1,6 @@
-#include <stdio.h>
+#!/bin/bash
+echo "#include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
 /**
  * main - Entry point
  * @argc: number of args
@@ -9,12 +9,5 @@
  */
 int main(int argc, char *argv[])
 {
-	int i;
-
-	for (i = 0; i < argc; i++)
-	{
-		printf("%s\n",argv[i]);
-	}
-
-	return (0);
-}
+        return (0);
+}" > $FILE_NAME
