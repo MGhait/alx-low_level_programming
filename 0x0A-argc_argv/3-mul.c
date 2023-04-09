@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "main"
+#include "main.h"
 /**
  * main - Entry point
  * @argc: number of args
