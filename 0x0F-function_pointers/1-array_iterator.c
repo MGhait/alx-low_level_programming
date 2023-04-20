@@ -13,5 +13,5 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 
 	if (arary && size && action)
 		while (array <= end)
-			action(*arary++);
+			action(*array++);
 }
