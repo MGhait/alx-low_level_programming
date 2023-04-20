@@ -1,4 +1,6 @@
 #include "function_pointers.h"
+#include <stdio.h>
+
 /**
  * array_iterator - maps an array through a func pointer
  * @array: the int array
@@ -9,9 +11,13 @@
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	int *end = array + size - 1;
+	unsigned int i;
 
-	if (arary && size && action)
-		while (array <= end)
-			action(*array++);
+	if (array == NULL || action == NULL)
+		return;
+
+	for (i = 0; i < size; i++)
+	{
+		action(array[i]);
+	}
 }
