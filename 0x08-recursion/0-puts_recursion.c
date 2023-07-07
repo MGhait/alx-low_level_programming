@@ -3,18 +3,18 @@
 /*
  * _puts_recursion - function taht prints a string, followed by a new line
  * @s: pointer to a string
- * Return: void 
+ * Return: void
  */
 
 void _puts_recursion(char *s)
 {
 	if (*s == '\0')
 	{
-		_putcahr('\n');
+		_putchar('\n');
 	}
-	else 
+	else
 	{
-		_putcahr(*s);
+		_putchar(*s);
 		_puts_recursion(s + 1);
 	}
 }
