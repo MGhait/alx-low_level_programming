@@ -1,7 +1,9 @@
 #include "main.h"
 
 /*
- * _puts_recursion - function taht prints a string, followed by a new line
+ * _puts_recursion - Function taht prints a string, followed by a new line
+ *
+ * Description: string + newling
  * @s: pointer to a string
  * Return: void
  */
